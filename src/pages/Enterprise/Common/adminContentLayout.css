@@ -1,0 +1,25 @@
+.adminContentHeader {
+  position: relative;
+  background: #fff;
+  padding: 0 20px;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #f0f2f5;
+}
+
+.adminContentHeaderTitle {
+  line-height: 49px;
+  font-size: 16px;
+  display: block;
+  font-weight: 500;
+  color: rgba(0, 0, 0, .85);
+}
+
+.adminContent {
+  padding: 24px 24px 40px 24px;
+  position: relative;
+  background: #f0f2f5;
+}
+
+.adminContentHeaderContent {
+  width: 100%;
+}

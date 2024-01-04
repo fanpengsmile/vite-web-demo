@@ -1,0 +1,3 @@
+.tag-tips__popup :global(.ant-popover-inner-content) {
+  padding-top: 0;
+}

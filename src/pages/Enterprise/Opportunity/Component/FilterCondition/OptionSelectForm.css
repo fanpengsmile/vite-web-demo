@@ -1,0 +1,5 @@
+#ckeck_bov_group_title.ant-popover-inner {
+  width: 400px;
+  max-height: 500px;
+  overflow: scroll;
+}

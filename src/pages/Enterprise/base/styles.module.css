@@ -1,0 +1,185 @@
+.logic-switch {
+  left: 0;
+  top: 0;
+  bottom: 5px;
+  position: relative;
+  margin-right: 15px;
+  width: 20px;
+}
+
+.logic-switch-has-line:before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  overflow: hidden;
+  background: #3da8f5;
+}
+
+.logic-switch__btn-logic {
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  transform: translateY(-50%);
+  background: #d9d9d9;
+  color: #bfbfbf;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  background-color: #fafafa;
+  /* background: #3da8f5;
+  color: #fff; */
+  font-size: 13px;
+  /* font-weight: 700; */
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.logic-switch__btn-logic--selected {
+  background: #3da8f5;
+  color: #fff;
+}
+
+.tag-param-input { 
+  display: inline-block;
+}
+
+.tag-dir-selector {
+  width: 366px;
+}
+
+.tag-dir-selector__keyword-search {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.tag-dir-selector__dir-selector-container {
+  display: flex;
+}
+
+.tag-dir-selector__dir-selector-header {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.tag-dir-selector__dir-selector {
+  /* width: 140px; */
+  height: 300px;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+.tag-dir-selecotr__seperator {
+  margin: 176px 10px 0 10px;
+}
+
+.behavior-param-input-wrapper {
+  margin: 0 0 10px 0;
+}
+
+.dir-tags-container {
+  padding: 10px 5px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.optional-container {
+  height: 300px;
+  border-left: 1px solid #d9d9d9;
+  padding: 10px;
+  overflow: auto;
+}
+/* 强制加滚动条 */
+.optional-container:global(::-webkit-scrollbar) {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+.optional-container:global(::-webkit-scrollbar-thumb) {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+.dir-tags-tree {
+  height: 300px;
+  overflow: auto;
+}
+
+/* 强制加滚动条 */
+.dir-tags-tree:global(::-webkit-scrollbar) {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+.dir-tags-tree:global(::-webkit-scrollbar-thumb) {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
+.arrow {
+  font-size: 30px;
+  line-height: 350px;
+  font-weight: bolder;
+  color: #ccc;
+}
+
+.tags-display-container {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  height: 364px;
+}
+.tags-display {
+  height: 330px;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.tags-display .tag-item {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.tags-display-header {
+  position: relative;
+  padding: 6px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.tags-display-header .btn-delete {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.optional-option {
+  max-width: 215px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 强制加滚动条 */
+.tags-display:global(::-webkit-scrollbar) {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+.tags-display:global(::-webkit-scrollbar-thumb) {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}

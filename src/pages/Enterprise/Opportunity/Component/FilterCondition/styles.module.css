@@ -1,0 +1,3 @@
+.cascader-popup :global(.ant-cascader-menu) {
+    height: 300px;
+}

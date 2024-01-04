@@ -1,0 +1,46 @@
+.tab_item_first {
+  display: inline-block;
+  cursor: pointer;
+  height: 30px;
+}
+
+#CompanyDetailTab .ant-card-body {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+#CompanyDetailTab #CompanyBaseDetailTab .ant-descriptions-view .ant-descriptions-item-label {
+  background-color: white;
+}
+
+#CompanyBaseDetailTab {
+  color: rgba(0,0,0,.65);
+}
+
+#CompanyBaseDetailTabCard .ant-card-body {
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+.tab_item {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 32px;
+  height: 30px;
+}
+
+.company_detail_table .ant-pagination {
+  margin-bottom: 0;
+}
+
+.tab_disabled {
+  color: rgba(0, 0, 0, 0.25);
+  cursor: not-allowed;
+}
+
+.activety_tab {
+  color: #3da8f5;
+  text-shadow: 0 0 0.25px currentcolor;
+  border-bottom: 2px #3da8f5 solid;
+  background-size: 100% 2s;
+}
